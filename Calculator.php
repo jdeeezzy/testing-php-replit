@@ -5,7 +5,11 @@ class Calculator
    function add($a=0, $b=0) {
    	 return $a + $b;
   }
-  
+
+    function subtract($a=0, $b=0) {
+   	 return $a - $b;
+
+  }  
   function multiply($a, $b) {
 		return $a * $b;
   }
