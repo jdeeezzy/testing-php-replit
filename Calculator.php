@@ -2,8 +2,8 @@
 
 class Calculator
 {
-  function add($a, $b) {
-		return $a + $b;
+   function add($a=0, $b=0) {
+   	 return $a + $b;
   }
   
   function multiply($a, $b) {
@@ -15,3 +15,10 @@ class Calculator
   }
 
 }
+
+
+   function divide($a, $b) {
+	if($b==0){return "ERR";}
+   	 return $a / $b;
+  }
+
